@@ -1,114 +1,42 @@
-html{
-    height: 100%;
-}
-body {
+* {
     margin: 0;
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F0FF;
-    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.header {
-    margin: 10px 0 50px 10px;
-    border: solid #FF3806;
-    height: 10%;
+body{
+    background-color: #efefef;
 }
 
-.logo {
-    text-align: center;
+.hero, .logo{
+    display: none;
 }
 
-.container {
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+}
+
+.heroBackground{
     position: relative;
-    margin-left: 10px;
-    border: solid blue;
-    height: 80%;
+    width: 50%;
+    height: 475px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    -15px 0 35px rgba(0, 0, 0, 0.1),
+    -15px 0 35px rgba(0, 0, 0, 0.1);
 }
 
-
-.javis {
-    position: absolute;
-    left: 60px;
-    top: 0;
-    width: 400px;
-    z-index: -1;
-    opacity: 0.3;
-}
-
-.arc-reactor {
-    position: absolute;
-    width: 400px;
-    margin: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.4;
-}
-
-
-@media screen and (min-width:600px) {
-    .main {
-        float: left;
-        width: 70%;
-        border: solid red;
-    }
-    .slide-image {
-        margin-left: 70%;
-        border: 1px solid #AD1400;
-    }
-
-    .img {
-        float: center;
-        margin: 0;
-        margin-top: -30px;
-        width: 90%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .main {
-        display: inline;
-    }
-    .img {
-        float: center;
-        margin: 0;
-        width: 90%;
-        height: 50%;
-        margin-top: 30px;
-    }
-    .container {
-        height: 80%;
-        overflow: auto;
-    }
-}
-.avengers {
-    padding-top: 10px;
-}
-
-.content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.img-tag {
-    text-align: center;
-}
-
-
-
-footer {
-    position: relative;
-    clear: both;
-    border: solid #FFAE00;
-    bottom: 0;
-    height: 50px;
-
-}
-
-
-
-.reference {
-    margin-right: 10px;
-    text-align: right;
+.info{
+    width: 50%;
 }
