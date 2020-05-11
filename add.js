@@ -1,6 +1,9 @@
 const skills = document.querySelectorAll('.skill'),
     colors = document.querySelectorAll('.color'),
-    heros = document.querySelectorAll('.hero');
+    heros = document.querySelectorAll('.hero'),
+    gradients = document.querySelectorAll('.gradient');
+
+let prevColor = "blue";
 
 const number = document.querySelector('.number'),
     num = number.querySelector('h1');
@@ -25,6 +28,8 @@ function changeColor(){
     let primary = this.getAttribute('primary');
     let color = this.getAttribute('color');
     let hero = document.querySelector(`.hero[color="${color}"]`);
+    let gradient = document.querySelector(`.gradient[color="${color}"]`);
+    let prevGradient = document.querySelector(`.gradient[color="${prevColor}"]`);
     
     
     colors.forEach(c => c.classList.remove('active'));
@@ -33,6 +38,12 @@ function changeColor(){
     document.documentElement.style.setProperty('--primary', primary);
     heros.forEach(h => h.classList.remove('show'));
     hero.classList.add('show');
+
+    gradients.forEach(g => g.classList.remove('first', 'second'));
+    gradient.classList.add('first');
+    prevGradient.classList.add('second');
+
+    prevColor = color;
 }
 
 function init(){
