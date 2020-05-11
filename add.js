@@ -4,6 +4,7 @@ const skills = document.querySelectorAll('.skill'),
     gradients = document.querySelectorAll('.gradient');
 
 let prevColor = "blue";
+let animationEnd = true;
 
 const number = document.querySelector('.number'),
     num = number.querySelector('h1');
@@ -25,6 +26,7 @@ function changeSkill(){
 }
 
 function changeColor(){
+    if(!animationEnd) return;
     let primary = this.getAttribute('primary');
     let color = this.getAttribute('color');
     let hero = document.querySelector(`.hero[color="${color}"]`);
@@ -44,6 +46,11 @@ function changeColor(){
     prevGradient.classList.add('second');
 
     prevColor = color;
+    animationEnd = false;
+
+    gradient.addEventListener('animationend', () => {
+        animationEnd = true;
+    })
 }
 
 function init(){

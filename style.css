@@ -331,3 +331,27 @@ body{
 .power i{
     margin-right: 2px;
 }
+
+@media (max-width: 1070px){
+    .hero{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px){
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .card > div{
+        width: 100%;
+    }
+
+    .hero{
+        width: 70%;
+        transform: translateY(-50%);
+        top: 50%;
+        right: 2%;
+    }
+}
