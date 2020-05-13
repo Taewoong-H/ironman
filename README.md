@@ -10,7 +10,7 @@
 
 ## 사이트 설명
  어벤져스 멤버 소개, 각 아이콘을 클릭하면 변경됨
-![Alt Text](https://github.com/Taewoong-H/ironman/tree/master/screen/1.png)
+![Alt Text](https://github.com/Taewoong-H/ironman/blob/master/screen/1.png)
 ![Alt Text](https://github.com/Taewoong-H/ironman/tree/master/screen/3.PNG)
 
 ## 추가
