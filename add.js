@@ -33,6 +33,7 @@ function changeColor(){
     let hero = document.querySelector(`.hero[color="${color}"]`);
     let gradient = document.querySelector(`.gradient[color="${color}"]`);
     let prevGradient = document.querySelector(`.gradient[color="${prevColor}"]`);
+    let heroName = document.querySelector('.big');
     
     
     colors.forEach(c => c.classList.remove('active'));
@@ -47,6 +48,20 @@ function changeColor(){
     prevGradient.classList.add('second');
 
     prevColor = color;
+
+    if(color === "blue"){
+        heroName.innerText = "Captain America";
+    } else if(color === "red"){
+        heroName.innerText = "Iron man";
+    } else if(color === "green"){
+        heroName.innerText = "Hulk";
+    } else if(color === "orange"){
+        heroName.innerText = "Spider man";
+    } else if(color === "black"){
+        heroName.innerText = "Thor";
+    }
+
+
     animationEnd = false;
 
     gradient.addEventListener('animationend', () => {
