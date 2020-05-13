@@ -12,10 +12,10 @@
  어벤져스 멤버 소개, 각 아이콘을 클릭하면 변경됨
  
  <img src="https://github.com/Taewoong-H/ironman/blob/master/screen/1.png" width="350px" height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-![Alt Text](https://github.com/Taewoong-H/ironman/blob/master/screen/3.PNG)
+ <img src="https://github.com/Taewoong-H/ironman/blob/master/screen/3.PNG" width="600px" height="350px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ## 추가
  연습용이므로 여러번 반복할 것이고 수정을 거칠 것이다.
- * 현재 1회차, 미완.
+ * 현재 1회차 완성. ver 1.0
 
 https://taewoong-h.github.io/ironman/.
