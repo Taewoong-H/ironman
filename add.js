@@ -2,6 +2,7 @@ const skills = document.querySelectorAll('.skill'),
     colors = document.querySelectorAll('.color'),
     heros = document.querySelectorAll('.hero'),
     gradients = document.querySelectorAll('.gradient');
+    heroBg = document.querySelector('.heroBackground');
 
 let prevColor = "blue";
 let animationEnd = true;
@@ -53,9 +54,23 @@ function changeColor(){
     })
 }
 
+
+let x = window.matchMedia("(max-width: 1000px)");
+
+function changeHeight(){
+    if(x.matches){
+        let heroHeight = heros[0].offsetHeight;
+        heroBg.style.height = `${heroHeight * 0.9}px`;
+    } else{
+        heroBg.style.height = "475px";
+    }
+}
+
+
 function init(){
     skills.forEach(skill => skill.addEventListener('click', changeSkill));
     colors.forEach(c => c.addEventListener('click', changeColor));
+    window.addEventListener('resize', changeHeight);
 }
 
 init();
