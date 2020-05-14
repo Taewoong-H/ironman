@@ -16,6 +16,6 @@
 
 ## 추가
  연습용이므로 여러번 반복할 것이고 수정을 거칠 것이다.
- * 현재 1회차 완성. ver 1.0
+ * 현재 1회차 완성. ver 1.1
 
 https://taewoong-h.github.io/ironman/.
