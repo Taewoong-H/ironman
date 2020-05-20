@@ -21,8 +21,8 @@
 
 > ver 2.0
 
-<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/4.PNG" width="300px" height="600px" title="ver1.1" alt="Avengers ver2"></img><br/>
-<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/5.PNG" width="600px" height="350px" title="ver1.1" alt="Avengers ver2"></img><br/>
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/5.PNG" width="300px" height="600px" title="ver1.1" alt="Avengers ver2"></img><br/>
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/4.PNG" width="600px" height="350px" title="ver1.1" alt="Avengers ver2"></img><br/>
 
 ## 추가
 
