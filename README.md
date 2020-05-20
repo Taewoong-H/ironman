@@ -14,14 +14,21 @@
 
 어벤져스 멤버 소개, 각 아이콘을 클릭하면 변경됨
 
-<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/1.png" width="300px" height="600px" title="ver1.1" alt="Avengers"></img><br/>
-<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/3.PNG" width="600px" height="350px" title="ver1.1" alt="Avengers"></img><br/>
+> ver 1.0
+
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/1.png" width="300px" height="600px" title="ver1.1" alt="Avengers ver1"></img><br/>
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/3.PNG" width="600px" height="350px" title="ver1.1" alt="Avengers ver1"></img><br/>
+
+> ver 2.0
+
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/4.PNG" width="300px" height="600px" title="ver1.1" alt="Avengers ver2"></img><br/>
+<img src="https://github.com/Taewoong-H/ironman/blob/master/screen/5.PNG" width="600px" height="350px" title="ver1.1" alt="Avengers ver2"></img><br/>
 
 ## 추가
 
 연습용이므로 여러번 반복할 것이고 수정을 거칠 것이다.
 
 - 1회차 완성. ver 1.1
-- 2회차 css 완성. js 추가 예정
+- 2회차 완성. ver 2.0
 
 https://taewoong-h.github.io/ironman/.
