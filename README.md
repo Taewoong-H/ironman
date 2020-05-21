@@ -30,5 +30,6 @@
 
 - 1회차 완성. ver 1.1
 - 2회차 완성. ver 2.0
+- 할 것 : 이미지 로딩시 너무 느림 현상, lazy loading 처리 구현 할것 
 
 https://taewoong-h.github.io/ironman/.
