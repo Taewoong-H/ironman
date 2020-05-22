@@ -316,7 +316,7 @@ body {
 
   .hero[color='green'] {
     width: 70%;
-    transform: translateY(-35%);
+    transform: translateY(-45%);
     z-index: 1;
   }
 

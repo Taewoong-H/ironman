@@ -29,7 +29,6 @@
 연습용이므로 여러번 반복할 것이고 수정을 거칠 것이다.
 
 - 1회차 완성. ver 1.1
-- 2회차 완성. ver 2.0
-- 할 것 : 이미지 로딩시 너무 느림 현상, lazy loading 처리 구현 할것 
+- 2회차 완성. ver 2.1 이미지 로딩 처리 너무 느림, icon에 lazy loading 처리
 
 https://taewoong-h.github.io/ironman/.
